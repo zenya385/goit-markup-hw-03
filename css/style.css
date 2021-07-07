@@ -1,0 +1,297 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  display: flex;
+}
+
+.list {
+  display: flex;
+}
+
+.section {
+  /* padding: 94px 0; */
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+  align-items: center;
+}
+
+/* memu-nav */
+.page-header {
+  border: 1px solid #ececec;
+}
+.logo {
+  color: #000000;
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1;
+  text-decoration: none;
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+.logo-web {
+  color: var(--accent-color);
+}
+.menu-nav {
+  display: flex;
+  margin-left: 93px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.menu-nav .link:hover,
+.menu-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.menu-nav .item {
+  /* display: flex; */
+  margin-right: 50px;
+}
+
+.menu-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.menu-nav .current {
+  color: var(--accent-color);
+}
+
+/* Контакты */
+.header-contact .text:hover,
+.header-contact .text:focus {
+  color: var(--accent-color);
+}
+
+.header-contact {
+}
+.header-contact .text {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  cursor: default;
+  margin-left: 50px;
+}
+
+/* Hero */
+.hero {
+  padding-top: 200px;
+  padding-bottom: 452px;
+  background-color: #2f303a;
+}
+.hero-title {
+  max-width: 696px;
+  margin: 0 auto 30px;
+  color: var(--primary-white-color);
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* hero button */
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+  padding: 10px 32px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 30px;
+  margin: 0 auto;
+  display: block;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--primary-white-color);
+  background-color: #188ce8;
+}
+
+/* Feature */
+.feacher-list {
+  display: flex;
+}
+
+.feacher-item {
+  margin-right: 30px;
+}
+.feacher-title:not(:last-child) {
+  margin-right: 30px;
+}
+.title {
+  margin-bottom: 10px;
+}
+
+.feature-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.feature-list .text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* section */
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.section-title-man {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.section .text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* footer */
+.page-footer {
+  background: #2f303a;
+}
+
+.page-footer .logo:hover,
+.page-footer .logo:focus {
+  color: var(--accent-color);
+}
+
+.page-footer .logo {
+  color: var(--primary-white-color);
+}
+
+.footer-address .text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primary-white-color);
+}
+
+.footer-address .text-1:hover,
+.footer-address .text-1:focus {
+  color: var(--accent-color);
+}
+.footer-address .text-1 {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  cursor: default;
+}
+
+/* Portfolio */
+
+/* filter */
+
+.filter {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: var(--title-text-color);
+}
+
+/* project */
+
+.project-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.project {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.project-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
