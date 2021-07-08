@@ -205,7 +205,7 @@ ul {
 }
 
 /* section-work */
-
+padding: 6px 22px 6px 22px;
 .section-work-item:not(:last-child) {
   margin-right: 30px;
 }
