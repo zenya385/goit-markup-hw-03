@@ -54,6 +54,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 .logo {
   color: #000000;
@@ -205,7 +206,6 @@ ul {
 }
 
 /* section-work */
-padding: 6px 22px 6px 22px;
 .section-work-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -313,7 +313,7 @@ padding: 6px 22px 6px 22px;
   background-color: var(--accent-color);
 }
 .filter-button {
-  padding: 6 22 6 22;
+  padding: 6px 22px 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
