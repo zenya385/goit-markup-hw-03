@@ -314,11 +314,13 @@ ul {
   cursor: pointer;
   color: var(--title-text-color);
 }
-.filter-list {
+.filter {
   display: flex;
-  flex-direction: row;
+  flex-basis: auto;
 }
-
+.filter-item {
+  display: flex;
+}
 /* project */
 
 .project-title {
@@ -335,7 +337,8 @@ ul {
   color: var(--title-text-color);
 }
 .project-item {
-  width: 370px;
+  border-bottom-color: rgb(255, 0, 0);
+  max-width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -350,6 +353,7 @@ ul {
 .project-list {
   display: flex;
   flex-wrap: wrap;
+  border-bottom-color: rgb(17, 0, 255);
 }
 
 .project-text {
