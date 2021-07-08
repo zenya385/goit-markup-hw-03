@@ -206,9 +206,6 @@ ul {
 
 /* section-work */
 
-.section-work-item {
-  /* margin-right: 30px; */
-}
 .section-work-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -375,7 +372,6 @@ ul {
 .project-list {
   display: flex;
   flex-wrap: wrap;
-  border-bottom-color: rgb(17, 0, 255);
 }
 
 .project-text {
@@ -383,10 +379,6 @@ ul {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-}
-
-/* .page-footer {
-  border: 1px solid red;
 }
 
 /* .footer {
