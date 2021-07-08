@@ -248,6 +248,7 @@ ul {
   line-height: 1.19;
 }
 .section .text {
+  text-align: center;
   font-size: 16px;
   line-height: 1.19;
 }
@@ -358,7 +359,7 @@ ul {
   color: var(--title-text-color);
 }
 .project-item {
-  border-bottom-color: rgb(255, 0, 0);
+  border-bottom: 1px solid #eeeeee;
   max-width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
