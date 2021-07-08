@@ -254,7 +254,6 @@ ul {
 
 /* footer */
 .page-footer {
-  width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
   box-sizing: border-box;
@@ -266,9 +265,10 @@ ul {
   display: block;
 }
 .footer-left {
-  padding: top 0;
+  padding-top: 0px;
   text-decoration: none;
   display: flex;
+  flex-direction: column;
 }
 
 .page-footer .logo:hover,
@@ -281,17 +281,17 @@ ul {
   margin-top: 60px;
 }
 
-.footer-address .text-mail .text-tel:hover,
-.footer-address .text-mail .text-tel:focus {
+.footer-address .text-1:hover,
+.footer-address .text-1:focus {
   color: var(--accent-color);
 }
 
-.footer-address .text-mail .text-tel {
+.footer-address .text-1 {
   text-decoration: none;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  color: var(--primary-white-color);
+  color: var(--primary-white-color--);
   text-decoration: none;
   cursor: default;
   font-family: Roboto, sans-serif;
@@ -315,6 +315,7 @@ ul {
   background-color: var(--accent-color);
 }
 .filter-button {
+  padding: 6 22 6 22;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
