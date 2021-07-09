@@ -38,7 +38,7 @@ ul {
 }
 
 .section {
-  padding: 94px 0;
+  padding: 94px 0 0 0;
 }
 
 .container {
@@ -127,11 +127,11 @@ ul {
 
 /* Hero */
 .hero {
-  width: 1600px;
+  max-width: 1600px;
   height: 600px;
   margin: 0 auto;
   padding-top: 200px;
-  padding-bottom: 452px;
+  padding-bottom: 200px;
   background-color: #2f303a;
 }
 .hero-title {
@@ -164,6 +164,7 @@ ul {
   margin-top: 30px;
   margin: 0 auto;
   display: block;
+  border: none;
 }
 
 .hero-button:hover,
@@ -217,9 +218,14 @@ ul {
   margin-right: 30px;
   margin-top: 94px;
 }
+.section-team {
+  background-color: #f5f4fa;
+}
 
 .team-list {
   margin-top: 94px;
+  padding-bottom: 94px;
+  margin-bottom: 0px;
 }
 
 .team-item {
@@ -230,6 +236,7 @@ ul {
 }
 
 .team-item-text {
+  background: #ffffff;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
@@ -256,6 +263,7 @@ ul {
 
 /* footer */
 .page-footer {
+  height: 252px;
   padding: 0 15px;
   margin: 0 auto;
   box-sizing: border-box;
@@ -263,6 +271,7 @@ ul {
   background: #2f303a;
 }
 .footer {
+  height: 252px;
   text-decoration: none;
   display: block;
 }
@@ -274,7 +283,7 @@ ul {
 }
 .footer-address {
   margin-top: 20px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 }
 .address {
   display: flex;
@@ -398,6 +407,7 @@ ul {
 .project-list {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 94px;
 }
 
 .project-text {
